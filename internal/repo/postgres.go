@@ -16,6 +16,8 @@ type Config struct {
 
 const (
 	transactionTable = "transactions"
+	userTable        = "users"
+	accountTable     = "accounts"
 )
 
 func NewPostgresDB(cfg Config) (*sqlx.DB, error) {

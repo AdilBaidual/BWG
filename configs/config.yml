@@ -1,9 +1,12 @@
 db:
   username: "postgres"
-  host: "localhost"
+  host: "db"
   port: "5432"
   dbname: "postgres"
   sslmode: "disable"
+
+redis:
+  addr: "redis:6379"
 
 port:
   "8000"
