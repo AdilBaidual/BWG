@@ -87,9 +87,9 @@ JSON
   "user_id": 1
 ```
 
-GET /getUserAccounts/:id - полчученик всех счетов юзера по id юзера
+GET /getUserAccounts/:id - полчучение всех счетов юзера по id юзера
 
-POST /invoice - ручка начисление на счет
+POST /invoice - начисление на счет
 
 JSON
 
@@ -106,7 +106,7 @@ JSON
 ```
   "currency_code": "RUB",
   "sender_account_id": 2, - номер счета отправителя
-  "recipient_account_id": 1, - номер счета получателя
+  "recipient_account_id": 1, - номер счета получателя(опционально)
   "amount": 10 - сумма
 ```
 
